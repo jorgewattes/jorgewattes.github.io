@@ -1,84 +1,66 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Professor Jorge Wattes</title>
-	<style>
-		/* estilo para as abas */
-		.tab {
-			overflow: hidden;
-			border: 1px solid #ccc;
-			background-color: #f1f1f1;
-		}
-css
-Copy code
-	/* estilo para os botões das abas */
-	.tab button {
-		background-color: inherit;
-		float: left;
-		border: none;
-		outline: none;
-		cursor: pointer;
-		padding: 14px 16px;
-		transition: 0.3s;
-		font-size: 17px;
-	}
-
-	/* estilo para o botão da aba ativa */
-	.tab button.active {
-		background-color: #ccc;
-	}
-
-	/* estilo para o conteúdo das abas */
-	.tabcontent {
-		display: none;
-		padding: 6px 12px;
-		border: 1px solid #ccc;
-		border-top: none;
-	}
-</style>
-</head>
-<body>
-	<h1>Professor Jorge Wattes</h1>
-php
-Copy code
-<!-- abas -->
-<div class="tab">
-	<button class="tablinks" onclick="openTab(event, 'descricao')">Descrição</button>
-	<button class="tablinks" onclick="openTab(event, 'foto')">Foto</button>
-	<button class="tablinks" onclick="openTab(event, 'redes-sociais')">Redes Sociais</button>
-	<button class="tablinks" onclick="openTab(event, 'disciplinas')">Disciplinas</button>
-</div>
-
-<!-- conteúdo das abas -->
-<div id="descricao" class="tabcontent">
-	<h2>Descrição do Professor</h2>
-	<p>Insira aqui a descrição do professor Jorge Wattes.</p>
-</div>
-
-<div id="foto" class="tabcontent">
-	<h2>Foto</h2>
-	<img src="caminho/para/a/foto/do/professor.jpg" alt="Foto do Professor Jorge Wattes">
-</div>
-
-<div id="redes-sociais" class="tabcontent">
-	<h2>Redes Sociais</h2>
-	<p>Insira aqui os links para as redes sociais do professor:</p>
-	<ul>
-		<li><a href="https://www.facebook.com/professorjorgewattes">Facebook</a></li>
-		<li><a href="https://www.twitter.com/professorjorgewattes">Twitter</a></li>
-		<li><a href="https://www.linkedin.com/in/professorjorgewattes">LinkedIn</a></li>
-	</ul>
-</div>
-
-<div id="disciplinas" class="tabcontent">
-	<h2>Disciplinas</h2>
-	<div class="disciplina">
-		<h3>Nome da Disciplina 1</h3>
-		<img src="caminho/para/a/imagem/da/disciplina-1.jpg" alt="Imagem da Disciplina 1">
-		<p>Insira aqui a descrição da Disciplina 1.</p>
-		<a href="#">Link para a Disciplina 1</a>
-	</div>
-	<div class="disciplina">
-		<h3>Nome da Disciplina 2</h3>
-		<img src="caminho/para/a/imag
+  <head>
+    <meta charset="UTF-8">
+    <title>Compartilhamento de pastas na nuvem</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #f2f2f2;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      a {
+        text-decoration: none;
+        color: #007bff;
+      }
+      footer {
+        background-color: #f2f2f2;
+        border-top: 1px solid #ddd;
+        color: #999;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Compartilhamento de pastas na nuvem</h1>
+      <p>por <strong>Nome do Professor</strong></p>
+      <p>Disciplinas: <strong>Nome da Disciplina 1</strong>, <strong>Nome da Disciplina 2</strong></p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="https://www.dropbox.com/sh/examplefolder1">Dropbox - Pasta Exemplo 1</a></li>
+        <li><a href="https://drive.google.com/drive/folders/examplefolder2">Google Drive - Pasta Exemplo 2</a></li>
+        <li><a href="https://onedrive.live.com/?id=examplefolder3">OneDrive - Pasta Exemplo 3</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <p>Copyright &copy; 2023 Nome do Professor.
+    </footer>
+  </body>
+</html>
