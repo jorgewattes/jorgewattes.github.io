@@ -1,66 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Compartilhamento de pastas na nuvem</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #007bff;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-      h1 {
-        margin: 0;
-      }
-      nav {
-        background-color: #f2f2f2;
-        border-bottom: 1px solid #ddd;
-        padding: 10px;
-      }
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-      }
-      li {
-        margin: 10px 0;
-        padding: 10px;
-        border: 1px solid #ddd;
-      }
-      a {
-        text-decoration: none;
-        color: #007bff;
-      }
-      footer {
-        background-color: #f2f2f2;
-        border-top: 1px solid #ddd;
-        color: #999;
-        padding: 10px;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Compartilhamento de pastas na nuvem</h1>
-      <p>por <strong>Nome do Professor</strong></p>
-      <p>Disciplinas: <strong>Nome da Disciplina 1</strong>, <strong>Nome da Disciplina 2</strong></p>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="https://www.dropbox.com/sh/examplefolder1">Dropbox - Pasta Exemplo 1</a></li>
-        <li><a href="https://drive.google.com/drive/folders/examplefolder2">Google Drive - Pasta Exemplo 2</a></li>
-        <li><a href="https://onedrive.live.com/?id=examplefolder3">OneDrive - Pasta Exemplo 3</a></li>
-      </ul>
-    </nav>
-    <footer>
-      <p>Copyright &copy; 2023 Nome do Professor.
-    </footer>
-  </body>
+<head>
+	<title>Título da Página</title>
+	<style>
+		header {
+			background-image: url('caminho-da-imagem-de-fundo.jpg');
+			background-size: cover;
+			color: #fff;
+			text-align: center;
+			padding: 100px 0;
+		}
+
+		h1 {
+			font-size: 4em;
+			margin: 0;
+		}
+
+		h2 {
+			font-size: 2em;
+			margin-top: 0;
+		}
+
+		.section {
+			padding: 50px;
+			background-color: #f5f5f5;
+		}
+
+		.section img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.card {
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.card img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.card h3 {
+			font-size: 1.5em;
+			margin-top: 0;
+		}
+
+		.card p {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Título da Página</h1>
+		<h2>Subtítulo da Página</h2>
+	</header>
+
+	<section class="section">
+		<div class="container">
+			<h2>Apresentação sobre o Site</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum mollis elit, eget vulputate libero eleifend in. Donec malesuada sit amet neque ut posuere. Duis ac velit a augue hendrerit varius. Praesent gravida risus a porttitor aliquam. Nullam scelerisque enim et tellus bibendum, at ultricies libero posuere. Morbi vel justo nisi. </p>
+			<img src="caminho-da-imagem-apresentacao.jpg" alt="Imagem de Apresentação">
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<h2>Cartões</h2>
+			<div class="card">
+				<img src="caminho-da-imagem-cartao-1.jpg" alt="Imagem do Cartão 1">
+				<h3>Título do Cartão 1</h3>
+				<p>Subtítulo do Cartão 1</p>
+				<p>Texto do Cartão 1</p>
+			</div>
+			<div class="card">
+				<img src="caminho-da-imagem-cartao-2.jpg" alt="Imagem do Cartão 2">
+				<h3>Título do Cartão 2</h3>
+				<p>Subtítulo do Cartão 2</p>
+				<p>Texto do Cartão 2</p>
+			</div>
+			<div class="card">
+				<img src="caminho-da-imagem-cartao-3.jpg" alt="Imagem do Cartão 3">
+				<h3>Título do Cartão 3</h3>
+				<p>Subtítulo do Cartão 3</p>
+				<p>Texto do Cartão 3</p>
+			</div>
+		</div>
+	</section>
+</body>
 </html>
